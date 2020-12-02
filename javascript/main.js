@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     // ! Timer Clock Script
-    $("#clock").countdown("2021/01/5", function (event) {
+    $("#clock").countdown("2021/1/5", function (event) {
         let $this = $(this).html(event.strftime(""
             // +"<div><span>%W</span><span>Weeks</span></div>"
             + '<div class="day_div"><span class="ctt">%D</span><span class="txt">Days</span></div>'
